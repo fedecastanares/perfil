@@ -20,13 +20,9 @@ body {
 }
 .nombre{
   text-align: right;
-  font-weight: bold;
   padding-top: 12vh;
 }
 
-.nombre span{
-  font-weight: lighter;
-}
 
 .redonda{
   height: 30vh;
@@ -42,6 +38,10 @@ body {
   color: #6d6d6d;
 }
 
+.blancosmoke{
+  color: lightgrey;
+  font-size: medium;
+}
 .blanco{
   color: whitesmoke;
   font-size: small;

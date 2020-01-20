@@ -1,5 +1,5 @@
 import React , {Fragment}  from 'react';
-import fotoFede from './assets/img/fede.jpg';
+import fotoFede from './assets/img/fede.png';
 import api from './assets/img/API.svg'
 import redux from './assets/img/redux.svg'
 import react from './assets/img/react.svg'
@@ -18,9 +18,10 @@ function App() {
               <img src={fotoFede} alt='Foto de Federico Castañares' className='mx-auto d-block redonda'/>
             </div>
             <div className='col'>
-              <h1 className='nombre'>Federico Castañares <span>Website</span></h1>
+              <h1 className='nombre font-weight-bold'>Federico Castañares <span className='font-weight-lighter'>Website</span></h1>
               <h3 className='text-right font-weight-lighter sub'>Front-end Developer</h3>
-              <h5 className='text-right font-weight-lighter blanco'>federico.castanares@gmail.com</h5>
+              <a href='mailto:federico.castanares@gmail.com'><h4 className='text-right font-weight-lighter blancosmoke'>federico.castanares@gmail.com</h4></a>
+              <h3 className='text-right font-weight-lighter blanco'><span role="img" aria-label="Round Pushpin">📍</span> Montevideo, Uruguay <span role="img" aria-label="flag: Uruguay">🇺🇾</span></h3>
             </div>
           </div>
         </div>
